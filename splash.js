@@ -54,7 +54,7 @@ window.addEventListener("load", () => {
         oscillator.connect(gainNode);
         gainNode.connect(audioCtx.destination);
 
-        oscillator.type = "square";
+        oscillator.type = "sine";
         oscillator.frequency.value = frequency;
         gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
 
