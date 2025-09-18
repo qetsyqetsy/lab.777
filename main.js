@@ -97,7 +97,7 @@ window.addEventListener("load", () => {
     labLink.addEventListener("click", (e) => {
         bartokChords = lab777Chords;
         playChord([440, 554.37, 659.25], 150);
-        alert("Tonalidad cambiada a LAB.777!");
+       // alert("Tonalidad cambiada a LAB.777!");
         e.preventDefault();
     });
 
