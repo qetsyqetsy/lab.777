@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas de Splash Matrix -->
+    <canvas id="splash-canvas"></canvas>
+
+    <!-- Formulario de ingreso -->
+    <div id="welcome-form">
+        <input type="text" id="user-name" placeholder="Ingresa tu nombre">
+        <button id="start-btn">Entrar</button>
+        <div id="loading-name"></div>
+    </div>
+
+    <!-- Header y navegación -->
+    <header id="header" style="display:none;">
+        <h1 id="site-title"><a href="#" id="lab-777">lab.777</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#arte">Arte</a></li>
+                <li><a href="#tecnologia">Tecnología</a></li>
+                <li><a href="#espiritualidad">Espiritualidad</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#descargas">Descargas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main id="content" style="display:none;">
+        <h2 id="welcome-message"></h2>
+
+        <section id="arte">
+            <h2>Arte</h2>
+            <p>Contenido de arte (música, literatura, artes visuales)</p>
+        </section>
+
+        <section id="tecnologia">
+            <h2>Tecnología</h2>
+            <p>Contenido de software, hardware, IA, hacking</p>
+        </section>
+
+        <section id="espiritualidad">
+            <h2>Espiritualidad</h2>
+            <p>Contenido de magick, sincretismo, academia, semiótica</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-entry">Ejemplo de entrada de blog</div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería A/V</h2>
+            <div class="gallery">
+                <img src="assets/images/example1.jpg" alt="Imagen 1">
+                <img src="assets/images/example2.jpg" alt="Imagen 2">
+            </div>
+        </section>
+
+        <section id="tienda">
+            <h2>Tienda</h2>
+            <div class="product">Producto 1</div>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <ul class="links-list">
+                <li><a href="#">Link 1</a></li>
+            </ul>
+        </section>
+
+        <section id="descargas">
+            <h2>Descargas</h2>
+            <ul class="downloads-list">
+                <li><a href="assets/downloads/ejemplo.pdf" download>Descargar ejemplo.pdf</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer" style="display:none;">
+        <p>&copy; 2025 Mi Web Personal</p>
+    </footer>
+
+    <script src="splash.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
